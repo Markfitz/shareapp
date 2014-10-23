@@ -1,8 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+
+$font-family-sans-serif:'Ubuntu', sans-serif;
 $body-bg: #2c3e50;
 $navbar-default-bg: #e74c3c;
 $navbar-default-link-color: #ecf0f1;
 $jumbotron-bg: #ecf0f1;
 $btn-primary-bg: #e74c3c;
-
+$btn-bg: #95a5a6;
 
 @import "bootstrap";
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand  {
+	font-weight: bold;
+}
+
+
